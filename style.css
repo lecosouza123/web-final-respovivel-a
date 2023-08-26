@@ -168,10 +168,7 @@ p {
     grid-template-columns: auto;
    
   }
-  img{
-    display: block;
-    max-width: 100%;
-  }
+
   .introducao{
     order: 2;
   }
@@ -179,10 +176,23 @@ p {
     display: none;
   }
 }
-@media (max-width:500px){
-  body{
-    
+@media (max-width:380px){
+  .menu{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
   }
+  .menu a {
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+   
+  }
+  .conteudo{
+    display: grid;
+    grid-template-columns: auto;
+   
+  }
+  
   
   .subtitulo{
     padding: 10px;
