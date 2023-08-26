@@ -152,7 +152,7 @@ p {
   padding: 40px;
   box-sizing: border-box;
 }
-@media (max-width:700px){
+@media (max-width:750px){
   .menu{
     flex-direction: column;
     padding: 0px;
